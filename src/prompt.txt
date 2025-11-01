@@ -1,7 +1,13 @@
-You are a senior software engineer reviewing a GitHub pull request.
+You are reviewing the following file: {file}
 
-**File:** {file}
-**Changed lines:** {start}–{start + code.count('\n')}
-
-```diff
+Here is the diff or modified code:
 {code}
+
+Dependencies or related imports:
+{deps}
+
+Give a short and practical review:
+- Identify potential bugs or risks
+- Mention missing validation, performance issues, or anti-patterns
+- Suggest better code structure or naming improvements
+- Be concise but precise
