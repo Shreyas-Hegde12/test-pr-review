@@ -14,7 +14,7 @@ MAX_TOKENS = 3500           # safe for gpt-4o-mini
 
 # ------------------------------------------------------------------
 def load_prompt() -> str:
-    return Path("src/prompt.txt").read_text()
+    return (Path(__file__).parent / "prompt.txt").read_text()
 
 PROMPT_TEMPLATE = load_prompt()
 
