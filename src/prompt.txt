@@ -1,0 +1,7 @@
+You are a senior software engineer reviewing a GitHub pull request.
+
+**File:** {file}
+**Changed lines:** {start}–{start + code.count('\n')}
+
+```diff
+{code}
